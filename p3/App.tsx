@@ -28,12 +28,12 @@ import {styles} from './styles'
           <View style={styles.divider} />
 
           <Text style={styles.label}>Nome</Text>
-          <Text style={styles.valor}>J*** P**** C******* M****</Text>
+          <Text style={styles.valor}>**** ***** ******** *****</Text>
 
           <View style={styles.row}>
             <View style={styles.coluna}>
               <Text style={styles.label}>CPF</Text>
-              <Text style={styles.valor}>***.865.247-**</Text>
+              <Text style={styles.valor}>***.***.***-**</Text>
             </View>
             <View style={styles.coluna}>
               <Text style={styles.label}>Sexo</Text>
