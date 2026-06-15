@@ -58,7 +58,7 @@ export const styles = StyleSheet.create({
     backgroundColor: '#e0e0e0',
     marginBottom: 12,
   },
-  label: {
+  destaque: {
     fontSize: 13,
     fontWeight: 'bold',
     color: '#1c1c1e',

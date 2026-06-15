@@ -27,38 +27,38 @@ import {styles} from './styles'
           <Text style={styles.cardTitulo}>Informações do Condutor                     <Image source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3U_wBYICebCOn5hvFblDmiM8W0LFSgSVGRw&s' }} style={styles.selo} /></Text>
           <View style={styles.divider} />
 
-          <Text style={styles.label}>Nome</Text>
+          <Text style={styles.destaque}>Nome</Text>
           <Text style={styles.valor}>**** ***** ******** *****</Text>
 
           <View style={styles.row}>
             <View style={styles.coluna}>
-              <Text style={styles.label}>CPF</Text>
+              <Text style={styles.destaque}>CPF</Text>
               <Text style={styles.valor}>***.***.***-**</Text>
             </View>
             <View style={styles.coluna}>
-              <Text style={styles.label}>Sexo</Text>
+              <Text style={styles.destaque}>Sexo</Text>
               <Text style={styles.valor}>MASCULINO</Text>
             </View>
           </View>
 
           <View style={styles.row}>
             <View style={styles.coluna}>
-              <Text style={styles.label}>Categoria</Text>
+              <Text style={styles.destaque}>Categoria</Text>
               <Text style={styles.valor}>AB</Text>
             </View>
             <View style={styles.coluna}>
-              <Text style={styles.label}>UF de Emissão</Text>
+              <Text style={styles.destaque}>UF de Emissão</Text>
               <Text style={styles.valor}>RJ</Text>
             </View>
           </View>
 
           <View style={styles.row}>
             <View style={styles.coluna}>
-              <Text style={styles.label}>Data de Validade</Text>
+              <Text style={styles.destaque}>Data de Validade</Text>
               <Text style={styles.valor}>14/10/2034</Text>
             </View>
             <View style={styles.coluna}>
-              <Text style={styles.label}>Data de Emissão</Text>
+              <Text style={styles.destaque}>Data de Emissão</Text>
               <Text style={styles.valor}>12/03/2026</Text>
             </View>
           </View>
@@ -86,7 +86,7 @@ import {styles} from './styles'
         </View>
 
         
-        <TouchableOpacity style={[styles.botao, styles.botaoSolo]}>
+        <TouchableOpacity style={styles.botao}>
           <Text style={styles.botaoTexto}>{'CREDENCIAL DE\nESTACIONAMENTO'}</Text>
         </TouchableOpacity>
 
